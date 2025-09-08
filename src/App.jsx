@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/shoppingreact">
+    <BrowserRouter basename="/e-plantShopping/">
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
