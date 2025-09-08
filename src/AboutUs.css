@@ -1,33 +1,52 @@
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
-    text-align: justify;
-  }
-  
-  .about-us-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-us-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .about-us-content {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .plant_logo_right{
-    text-align: right;
-  }
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9fdf9;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+}
 
-  .plant_logo_left{
-    text-align: left;
-  }
+.about-us-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.about-us-description {
+  font-size: 20px;
+  color: #388e3c;
+  margin-bottom: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+.about-us-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.plant_logo_right {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.plant_logo_left {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.plant_logo_left img,
+.plant_logo_right img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}

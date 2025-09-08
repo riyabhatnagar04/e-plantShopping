@@ -1,0 +1,59 @@
+/* LandingPage.css */
+.landing-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("images/greenhouse-bg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  max-width: 1200px;
+}
+
+.landing-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.landing-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.divider {
+  height: 2px;
+  width: 60%;
+  background: white;
+  margin: 10px 0;
+}
+
+.tagline {
+  margin-bottom: 20px;
+}
+
+.get-started-button {
+  background: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.landing-right {
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
